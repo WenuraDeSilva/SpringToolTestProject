@@ -1,0 +1,38 @@
+
+body{
+    margin: 0px 0px;
+    background-image: url(../img/pic.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+}
+ /* .t{
+    position: absolute;
+    background-color: #2cc934;
+    margin:   100px 0px 0px 300px;
+} */
+.panel1{
+    position: absolute;
+    margin : 170px 30px 10px 150px;
+    padding: 30px 30px 30px 30px;
+    size: 200px 200px;
+    background-color: #ffffffa3;
+    border-radius: 15px;
+}
+.panel2{
+    position: absolute;
+    margin : 20px 30px 10px 150px;
+    padding: 30px 30px 30px 30px;
+    size: 200px 200px;
+    background-color: #ffffffa3;
+    border-radius: 15px;
+
+}
+
+.green{
+    background-color: #00cc66;
+
+}
+
+.left{
+    margin-left:35px;
+}

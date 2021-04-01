@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/css.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <div class="div panel1">
+        
+            <center><h1>Add New User</h1>
+                <br/>
+                <span class="h4 left">ID</span><br/>
+                <input class="input-lg" type="text" id="id"/>
+                <br/><br/>
+
+                <span class="h4 left">Name</span><br/>
+                <input class="input-lg" type="text" id="name"/>
+                <br/><br/>
+                
+                <span class="h4 left">Username</span><br/>
+                <input class="input-lg" type="text" id="un"/>
+                <br/><br/>
+
+                <span class="h4 ">Password</span><br/>
+                <input class="input-lg" type="text" id="pw" />
+                <br/><br/>
+
+                <span class="h4 left">Age</span><br/>
+                <input class="input-lg" type="text" id="age"/>
+                <br/><br/>
+
+                <span class="h4 left">Telephone</span><br/>
+                <input class="input-lg" type="text" id="tele"/>
+                <br/><br/>
+
+                <button class="btn btn-lg btn-success" onclick="addUser()">Add User</button>
+                <button class="btn btn-lg btn-success" onclick="getAllUsers()">Get All Users</button>
+                <br/><br/>
+                <p id="resultuser"></p>
+
+            
+            </center>
+        
+    </div>
+    <div class="div panel1">
+        
+        <center><h1>Add New Product</h1>
+            <br/>
+            <span class="h4 left">ID</span><br/>
+            <input class="input-lg" type="text" id="proid"/>
+            <br/><br/>
+
+            <span class="h4 left">Product Name</span><br/>
+            <input class="input-lg" type="text" id="proname"/>
+            <br/><br/>
+            
+            <span class="h4 left">Description</span><br/>
+            <input class="input-lg" type="text" id="description"/>
+            <br/><br/>
+
+            <span class="h4 ">Price</span><br/>
+            <input class="input-lg" type="text" id="price" />
+            <br/><br/>
+
+            <button class="btn btn-lg btn-success" onclick="addProduct()">Add Product</button>
+            <button class="btn btn-lg btn-success" onclick="getAllProducts()">Get All Products</button>
+            <br/><br/>
+            <p id="resultproduct"></p>
+
+        
+        </center>
+    
+</div>
+
+
+    <script src="js/js.js" type="text/javascript"></script>
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+ 
+</body>
+</html>

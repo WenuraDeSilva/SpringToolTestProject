@@ -1,0 +1,265 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 24, 2019, 2:07:23 PM
+    Author     : Ajith
+*/
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+.nav-bar {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 255, 21, 0.78);
+  /* position: fixed; */
+  z-index: 999;
+}
+.list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  padding-right: 23px;
+}
+.logo-div {
+  position: absolute;
+  border: solid rgb(12, 12, 12);
+  width: 145px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 27px;
+}
+.logo {
+  position: inherit;
+  margin-left: 5px;
+}
+.pages {
+  /* margin-left: 100px;
+                margin-top: 15px; */
+  margin: 15px 0px 0px 110px;
+}
+.link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.div-1 {
+  border: none;
+  width: 100%;
+  height: 500px;
+  padding-top: 120px;
+  background-color: rgb(241, 1, 1);
+  background: url("../img/adaf.png") no-repeat;
+  background-size: 490px 700px;
+  background-attachment: fixed;
+
+  background-position: 820px -10px;
+}
+.headings {
+  margin: 0px 0px;
+  margin-top: 0px;
+  margin-left: 120px;
+  /* text-align: center; */
+  position: inherit;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+.heading-1 {
+  margin-top: 10px;
+  font-size: 30px;
+  font-size: 19px;
+  line-height: 30px;
+  color: rgb(45, 45, 45);
+
+  letter-spacing: 4px;
+  font-weight: 700;
+  color: rgb(19, 224, 19);
+}
+.heading-2 {
+  min-width: 868px;
+  /* max-width: 868px; */
+  /* white-space: normal; */
+  font-size: 65px;
+  line-height: 85px;
+  font-weight: 700;
+  color: rgb(45, 45, 45);
+  text-transform: uppercase;
+  letter-spacing: 13px;
+}
+.heading-3 {
+  min-width: 868px;
+  /* max-width: 868px; */
+  /* white-space: normal; */
+  /* margin-left: 50px; */
+  font-size: 45px;
+  line-height: 70px;
+  font-weight: 700;
+  color: rgb(45, 45, 45);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.mar {
+  margin-left: 50px;
+}
+.s1 {
+  margin-left: 50px;
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(45, 45, 45);
+  letter-spacing: 1px;
+}
+.search {
+  font-size: 16px;
+  margin-top: 5px;
+  height: 30px;
+  letter-spacing: 1px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 25px;
+  text-indent: 10px;
+}
+.searchbtn {
+  width: 105px;
+  height: 33px;
+
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  /* font-family: Montserrat; */
+
+  text-transform: uppercase;
+  background-color: rgb(0, 255, 64);
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+
+  cursor: pointer;
+}
+.searchbtn:hover {
+  color: rgb(0, 0, 0);
+  /* background-color: rgb(43, 255, 0); */
+  border-color: rgb(0, 0, 0);
+}
+.searchbtnred {
+  background-color: rgb(255, 51, 0);
+}
+
+.div-2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  background: url("../img/dog-11354.png") no-repeat;
+  background-size: 120px 320px;
+  /* background-attachment: fixed; */
+
+  background-position: 1230px 40px;
+  border: solid;
+  border-bottom-color: #37e614;
+  border-top-color: #37e614;
+  border-right: none;
+  border-left: none;
+}
+.div-no-background{
+  /* background: none no-repeat; */
+  background-attachment: fixed;
+
+}
+
+
+.diplay {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.dog-set {
+  /*display: flex;*/
+  margin-left: 50px;
+  /* width:100%; */
+}
+.dog {
+  border: solid rgb(45, 45, 45);
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  /*vertical-align: middle;*/
+  padding: 10px;
+  margin: 20px;
+  width: 230px;
+  height: 350px;
+}
+.dog:hover {
+  border: solid rgb(43, 255, 0);
+  color: black;
+  /* background-color: rgba(43, 255, 0, 0.925); */
+}
+.dog-img {
+  width: 190px;
+  height: 210px;
+
+  border-radius: 10px;
+}
+.dog-name {
+  margin-top: 10px;
+  margin-bottom: 1px;
+  font-size: 15px;
+  font-weight: bold;
+  /*letter-spacing: 1px;*/
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #2d2d2d33;
+  padding-top: 10px;
+  background-image: url("../img/ds.png");
+  background-position: 1000px 420px;
+  background-attachment: fixed;
+  background-size: 300px 350px;
+  background-repeat: no-repeat;
+}
+
+.footer-all {
+  margin: 10px 0px 0px 80px;
+}
+.footer-heading {
+  font-size: 10px;
+
+  letter-spacing: 3px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.footer-body {
+  font-family: open sans, sans-serif;
+
+  font-weight: 400;
+
+  font-size: 7px;
+  letter-spacing: 1px;
+  line-height: 5px;
+  color: rgb(58, 58, 58);
+}
+.watermark {
+  font-size: 15px;
+  text-align: center;
+  color: #424242;
+}
